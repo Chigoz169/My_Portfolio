@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/* Main */
+html,
+body {
+  line-height: 1.5rem;
+}
+
+a {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/* Utility Class */
+.container {
+  max-width: 48rem;
+  padding: 0.125rem 0.5rem;
+}
+
+.container__header {
+  width: 100%;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+/* Nav_bar */
+.container__flex {
+  padding: 0.25rem;
+  display: block;
+}
+
+.header_flex {
+  width: 100%;
+}
+
+.nav_bar h1 {
+  font-size: 1.5rem;
+}
+
+.nav_bar__logo img {
+  margin-top: 0.4rem;
+}
+
+.nav_bar ul {
+  display: block;
+  background: #0d237d;
+  align-items: start;
+  width: 100%;
+  padding-left: 0;
+}
+.nav_bar li {
+  border: 0.07rem solid #000;
+  text-align: center;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.nav_bar a {
+  display: inline-block;
+  border-radius: none;
+  border-right: none;
+  border-left: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_bar a:hover {
+  background: #0d237d;
+  font-weight: 400;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.nav_bar a:focus {
+  text-decoration: none;
+  color: none;
+}
+/* Header: Showcase */
+.container__div {
+  display: block;
+}
+
+.container__div__profile--pro1 {
+  width: 35%;
+  margin: 0.325rem auto;
+  border-radius: 0;
+}
+
+.container__div__profile--pro2 {
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  margin-top: 0.325rem;
+} 
+
+.container__div__profile--pro1 img {
+  height: 8rem;
+  border-radius: 50%;
+  padding: 0.25rem;
+  margin-top: 0.2rem;
+}
+
+.container__div__profile--pro2 img {
+  display: none;
+}
+
+.container__div__profile  p {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+
+.container__div__profile p:first-child {
+  font-size: 1.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.container__div__profile  h2 {
+  padding: 0.875rem 0.125rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container__block {
+  display: block;
+}
+
+.container__block__section {
+  width: 100%;
+}
+
+.container__block__section p,
+.contact p {
+  margin-top: -0.5rem;
+  padding: 1.25rem 1rem;  
+}
+
+.container__block__flex__stack {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.container__block__flex__stack h3 {
+  font-size: 1.6rem;
+  margin: 0.625rem 0;
+}
+
+.container__block__flex__stack ul {
+  left: 0;
+  justify-content: center;
+  padding: 0.2rem;
+  width: 100%;
+}
+
+.container__block__flex__stack li {
+  border: 0.15rem solid;
+  margin-bottom: 0.4rem;
+  margin-right: 0.3rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-top-color: #33a951;
+  border-left-color: #fab900;
+  border-bottom-color: #eb3e2f;
+  border-right-color: #3f86f8; 
+}
+
+.container__block__flex__stack a {
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  margin-top: -1.3rem;  
+}
+
+.container__block__section a:hover {
+  font-weight: 400;
+}
+
+.contact p {
+  background: #0d237d;
+}
+
+.contact form {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.contact form input {
+  font-size: 1.1rem;
+  padding: 0.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact form textarea {
+  font-size: 1.1rem;
+  padding: 0.1rem;
+}
+
+.contact form input:last-child {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.contact form input:last-child:hover {
+  font-size: 1.2rem;  
+}
+
+.container__footer_section {
+  border: 0.08rem solid #000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  display: block;
+  justify-content: none;
+  padding-bottom: 10px;
+}
+
+.container__footer_section__div {
+  width: 100%;
+  padding: 0.625rem 0.625rem;
+}
+
+.container__footer_section__div h3 {
+  font-size: 1.4rem;
+}
+
+.container__footer_section__div a {
+  left: 0;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
+.footer__copy {
+  font-size: 0.8rem;
+  margin-top: -0.8rem;
+}

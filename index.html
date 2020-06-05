@@ -4,37 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Frontend, Web Developer" />
-    <meta name="description" content="A portfolio site created to showcase my personal projects which I have achieved so far in the technology industry."/>
+    <meta name="description" content="A portfolio site created to showcase my personal projects which I have achieved so far in the technology industry."
+    />
     <title>Judah's Portfolio</title>
     <link rel="icon" type="image/png" href="images/A.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1100px)"
+      href="widescreen.css"
+    />
   </head>
-  <body>
-    <div class="container">
-      <header>
-        <img src="images/ABJ.png" alt="A rectangular logo containing the letters ABJ." width="100px" height="40px"/>
-        <h1 id="index">ABRAHAM JUDAH</h1>
-        <nav>
-          <ul>
-            <li><a href="#index">Home</a></li>
-            <li><a href="#about">Profile</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+  <body id="home">
+    <!-- Navigation Bar -->
+    <nav class="nav_bar">
+      <div class="container">
+        <div class="container__flex">
+          <div class="header_flex">
+            <div class="nav_bar__logo"><img
+              src="images/ABJ.png"
+              alt="A rectangular logo containing the letters ABJ."
+            /></div>
+            <h1>ABRAHAM JUDAH</h1>
+          </div>
+          <ul class="nav_bar__list">
+            <li class="nav_bar__list-items">
+              <a href="#index">Home</a>
+            </li>
+            <li class="nav_bar__list-items">
+              <a href="#about">Profile</a>
+            </li>
+            <li class="nav_bar__list-items">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav_bar__list-items">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
-        </nav>
-      </header>
-      <main>
-        <div id="profile">
-          <img src="images/picture.jpg" alt="A personal profile picture." height="300px"/>
         </div>
-        <div id="description">
-          <p id="greeting">Hello there!</p>
-          <img src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png" alt="An emoji icon of a waving hand."/>
-          <p id="about">I am Abraham Judah and a Nigerian</p>
-          <h2>Frontend Web Developer</h2>
+      </div>
+    </nav>
+    <!-- Introduction Section-->
+    <section class="showcase">
+      <div class="container">
+        <div class="container__div">
+          <div class="container__div__profile container__div__profile--pro1">
+            <img src="images/picture.jpg" alt="My personal picture putting on a black suit and a skyblue shirt." />
+          </div>
+          <div class="container__div__profile container__div__profile--pro2">
+            <p>
+              Hello there!
+              <span><img
+                  src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png"
+                  alt="An emoji icon of a waving hand."
+              /></span>
+            </p>
+            <p>I am Abraham Judah and a Nigerian</p>
+            <h2>Frontend Web Developer</h2>
+          </div>
         </div>
-        <h1 id="about">About</h1>
-        <div class="section">
-          <section id="detail">
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h2 id="about" class="container__header">About</h2>
+        <div class="container__block">
+          <div class="container__block__section">
             <p>
               My name is Abraham Judah and I am a citizen of Nigeria and as well
               a specialist in Frontend web development. My coding career kicked
@@ -43,7 +84,8 @@
               felt that it wasn't possible for me to learn all that is required
               to be a good software developer but with perseverance and
               determination, I surpassed the most difficult path of my career
-              caused by <span><b>fear</b></span>.
+              caused by <span><b>fear</b></span
+              >.
             </p>
             <p>
               I love graphics designs, technology-related stuffs and have been
@@ -52,80 +94,97 @@
               developer at the Konga Online Shopping Company and I aim to be
               amongst the world's best software developers.
             </p>
-          </section>
-          <div id="stack">
-            <section class="section1">
-              <h2>My Stack</h2>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>SASS/Less</li>
-                <li>Javascript</li>
-                <li>ReactJS</li>
-                <li>PHP/Less</li>
-                <li>MySQL</li>
-                <li>Balsamiq</li>
-                <li>Figma</li>
-                <li>Version Control</li>
-              </ul>
-            </section>
-            <section class="section1" id="section1">
-              <h2>Soft Skills</h2>
-              <ul>
-                <li>Strong Communication Skill</li>
-                <li>Leadership Skill</li>
-                <li>Teamwork</li>
-                <li>Creative Thinking</li>
-                <li>Problem Solving</li>
-                <li>Flexible and Adaptable</li>
-              </ul>
-            </section>
+          </div>
+          <div class="container__block__section container--bg">
+            <div class="container__block__flex">
+              <div class="container__block__flex__stack">
+                <h3>My Stack</h3>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>SASS/Less</li>
+                  <li>Javascript</li>
+                  <li>ReactJS</li>
+                  <li>PHP/Less</li>
+                  <li>MySQL</li>
+                  <li>Balsamiq</li>
+                  <li>Figma</li>
+                  <li>Version Control</li>
+                </ul>
+              </div>
+              <div class="container__block__flex__stack">
+                <h3>Soft Skills</h3>
+                <ul>
+                  <li>Strong Communication Skill</li>
+                  <li>Leadership Skill</li>
+                  <li>Teamwork</li>
+                  <li>Creative Thinking</li>
+                  <li>Problem Solving</li>
+                  <li>Flexible and Adaptable</li>
+                </ul>
+              </div>
+              <div class="container__block__flex__stack container__block__flex__stack--link">
+                <a href="www.googledocs.com" target="_blank" rel="noopener">Download Resume <i class="fas fa-arrow-right fa-sm"></i></a> 
+              </div>
+            </div>
           </div>
         </div>
-        <a href="#">Download Resume<i class="fas fa-arrow-right fa-sm"></i></a>
-        <h1 id="portfolio">My Projects</h1>
-        <section class="projects">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </section>
-        <h1 id="contact">Contact</h1>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="portfolio"  class="portfolio">
+      <div class="container">
+        <h2 class="container__header">My Projects</h2>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="container__header">Contact</h2>
         <p>
           Do you want to reachout to me? Hit me up directly using any of the
-          underlisted channels or you can directly send me an email through the
-          form below.
+          underlisted channels or you can directly send me an email through
+          the form below.
         </p>
-        <form action="POST">
+        <form>
           <label for="name">Name<i class="fas fa-asterisk fa-xs"></i></label>
-          <input type="text" required />
+          <input type="text" name="name" placeholder="Enter your name..." required />
           <label for="email">Email<i class="fas fa-asterisk fa-xs"></i></label>
-          <input type="email" required />
+          <input type="email" name="email" placeholder="Enter your email..." required />
           <label for="message">Message<i class="fas fa-asterisk fa-xs"></i></label>
-          <input type="text" required id="message" />
-          <input type="submit" id="submit" />
+          <textarea name="message"></textarea>
+          <input type="submit" value="Send Message"/>
         </form>
-      </main>
-      <footer>
-        <div id="footer">
-          <section class="link">
+      </div>
+    </section>
+    <!-- Footer/Connect Section -->
+    <footer>
+      <div class="container">
+        <div class="container__footer_section">
+          <div class="container__footer_section__div">
             <h3>Want to connect with me?</h3>
             <p>
               You can simply use any of the mediums to reach me as I am
               currently open to projects and collaborations
             </p>
-          </section>
-          <section class="link">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
-            <a href="https://www.gmail.com" target="_blank" rel="noopener"><i class="far fa-envelope fa-lg"></i>Email</a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in fa-lg"></i>LinkedIn</a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f fa-lg"></i>Facebook</a>
-            <a href="https://www.github.com" target="_blank" rel="noopener"><i class="fab fa-github fa-lg"></i>Github</a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg"></i>Twitter</a>
-          </section>
+          </div>
+          <div class="container__footer_section__div">
+            <a href="https://www.instagram.com" class="footer__div__section__link" target="_blank" rel="noopener">
+              <i class="fab fa-instagram fa-lg"></i>Instagram</a>
+            <a href="https://www.gmail.com" class="footer__div__section__link" target="_blank" rel="noopener">
+              <i class="far fa-envelope fa-lg"></i>Email</a>
+            <a href="https://www.linkedin.com" class="footer__div__section__link" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin-in fa-lg"></i>LinkedIn</a>
+            <a href="https://www.facebook.com" class="footer__div__section__link" target="_blank" rel="noopener">
+              <i class="fab fa-facebook-f fa-lg"></i>Facebook</a>
+            <a href="https://www.github.com" class="footer__div__section__link" target="_blank" rel="noopener">
+              <i class="fab fa-github fa-lg"></i>Github</a>
+            <a href="https://www.twitter.com" class="footer__div__section__link" target="_blank" rel="noopener">
+              <i class="fab fa-twitter fa-lg"></i>Twitter</a>
+          </div>
         </div>
-        <p id="copy">&#169; Copyright 2020 ABJ. All Rights Reserved.</p>
-      </footer>
-    </div>
+        <p class="footer__copy">Copyright &#169; 2020 ABJ. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
