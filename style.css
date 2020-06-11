@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
 /* Reset */
 * {
@@ -10,7 +10,7 @@
 /* Main */
 html,
 body {
-  font-family: 'Cabin' sans-serif;
+  font-family: "Cabin" sans-serif;
   background: #f4f4f4;
   line-height: 2rem;
 }
@@ -35,17 +35,17 @@ p {
 }
 
 .container__header {
-  color: #eb3e2f;
+  color: #ffce00;
   padding: 0.625rem;
   width: 96.7%;
-  background: #0d237d;
+  background: #0375b4;
   font-size: 2.1875rem;
   margin: 1.9rem 0.625rem;
 }
 
 /* Nav_bar */
 .nav_bar {
-  background: #c72b1d;
+  background: #262228;
 }
 
 .container__flex {
@@ -64,11 +64,11 @@ p {
   padding: 0.35rem 1.25rem;
   margin-top: 0.15rem;
   text-align: center;
-  color: #0d237d;
+  color: #f4f4f4;
 }
 
 .nav_bar__logo img {
-  border: 0.08rem solid #0d237d;
+  border: 0.08rem solid #0375b4;
   width: 4.375rem;
   height: 2.1875rem;
   margin-top: 0.3125rem;
@@ -85,25 +85,25 @@ p {
 .nav_bar a {
   display: block;
   border-radius: 0.3125rem;
-  border-right: 0.08rem solid #0d237d;
-  border-left: 0.08rem solid #0d237d;
+  border-right: 0.08rem solid #0375b4;
+  border-left: 0.08rem solid #0375b4;
   padding: 0.65rem 0.625rem;
   margin: 0 0.25rem;
 }
 
 .nav_bar a:hover {
-  color: #eb3e2f;
-  background: #f4f4f4;
+  color: #007849;
+  background: #fff;
   font-weight: 700;
   border-left: none;
   border-right: none;
-  border-top: 0.08rem solid #0d237d;
-  border-bottom: 0.08rem solid #0d237d;
+  border-top: 0.08rem solid #0375b4;
+  border-bottom: 0.08rem solid #0375b4;
 }
 
 .nav_bar a:focus {
   text-decoration: underline;
-  color: #3f86f8;
+  color: #007849;
 }
 
 /* Header: Showcase */
@@ -116,7 +116,7 @@ p {
 .container__div__profile {
   width: 60%;
   align-items: center;
-  background: #0d237d;
+  background: #0375b4;
 }
 
 .container__div__profile--pro1 {
@@ -126,7 +126,7 @@ p {
 
 .container__div__profile--pro2 {
   padding: 3.5rem;
-} 
+}
 
 .container__div__profile--pro1 img {
   height: 25rem;
@@ -141,7 +141,7 @@ p {
   right: 0.3125rem;
 }
 
-.container__div__profile  p {
+.container__div__profile p {
   font-size: 2.1875rem;
   margin-bottom: 3.125rem;
 }
@@ -151,13 +151,13 @@ p {
   margin-bottom: 5rem;
 }
 
-.container__div__profile  h2 {
-  border: 0.25rem solid #eb3e2f;
+.container__div__profile h2 {
+  border: 0.25rem solid #fff;
   border-left: none;
   border-right: none;
   width: fit-content;
-  color: #3f86f8;
-  background: #fff;
+  color: #262228;
+  background: #ffce00;
   padding: 1.4rem 0.125rem;
   font-size: 3.125rem;
 }
@@ -168,7 +168,7 @@ p {
 
 .container__block__section {
   width: 50%;
-  background: #0d237d;
+  background: #0375b4;
 }
 
 .container--bg {
@@ -178,7 +178,7 @@ p {
 
 .container__block__section p,
 .contact p {
-  padding: 1.25rem 1rem;  
+  padding: 1.25rem 1rem;
 }
 
 .container__block__flex {
@@ -188,7 +188,7 @@ p {
 }
 
 .container__block__flex__stack {
-  background: #0d237d;
+  background: #0375b4;
   width: 90%;
   padding: 0.625rem 1.25rem;
   margin-bottom: 0.4rem;
@@ -197,7 +197,7 @@ p {
 .container__block__flex__stack h3 {
   font-size: 1.57rem;
   text-align: center;
-  color: #eb3e2f;
+  color: #ffce00;
   font-weight: 700;
   margin-bottom: 0.625rem;
 }
@@ -217,46 +217,47 @@ p {
   border: 0.1875rem solid;
   color: #f4f4f4;
   width: fit-content;
-  background: #426DB8;
+  background: #262229;
   margin-bottom: 0.625rem;
   margin-right: 0.3125rem;
   font-size: 1.25rem;
   font-weight: 700;
   padding: 0.625rem;
   border-radius: 0.3125rem;
-  border-top-color: #33a951;
-  border-left-color: #fab900;
-  border-bottom-color: #eb3e2f;
-  border-right-color: #3f86f8;  
+  border-top-color: #007849;
+  border-left-color: #eb3e2f;
+  border-bottom-color: #ffce00;
+  border-right-color: skyblue;
 }
 .container__block__flex__stack--link {
-  background: none
+  background: none;
 }
 
 .container__block__flex__stack a {
   display: inline-block;
-  background: #c72b1d;
+  background: #0375b4;
+  color: #ffce00;
   font-size: 1.5625rem;
   border-radius: 0.3125rem;
   margin: -1.25rem;
   width: fit-content;
   padding: 0.4375rem 0.9375rem;
-  border: 0.125rem solid #0d237d;
+  border: 0.125rem solid #262228;
 }
 
 .container__block__section a:hover {
-  color: #0d237d;
-  border: 0.125rem solid #33a951;
-  background: #c72b1d;
+  color: #fff;
+  border: 0.125rem solid #0375b4;
+  background: #ffce00;
   font-weight: 700;
 }
 
 .contact p {
-  background: #0d237d;
+  background: #0375b4;
 }
 
 .contact form {
-  background: #0d237d;
+  background: #0375b4;
   width: 50%;
   margin-top: 1.25rem;
   padding: 1.25rem 1.875rem;
@@ -264,7 +265,7 @@ p {
 
 .contact form label {
   display: block;
-  color: #f4f4f4;
+  color: #ffce00;
   font-size: 1.4rem;
 }
 
@@ -286,13 +287,13 @@ p {
 .contact form input:focus,
 .contact form textarea:focus {
   outline: none;
-  border: 0.1rem solid #eb3e2f;
+  border: 0.1rem solid #262228;
 }
 
 .contact form input:hover,
 .contact form textarea:hover {
   outline: none;
-  border: 0.1rem solid #eb3e2f;
+  border: 0.1rem solid #262228;
 }
 
 .contact form input:last-child {
@@ -301,24 +302,24 @@ p {
   border-radius: 0.5rem;
   margin-top: 0.625rem;
   background: #f4f4f4;
-  color: #eb3e2f;
+  color: #ffce00;
   cursor: pointer;
-  border: 0.0625rem solid #3f86f8;
+  border: 0.0625rem solid #0375b4;
   font-weight: 700;
 }
 
 .contact form input:last-child:hover {
-  background: #eb3e2f;
+  background: #ffce00;
   font-size: 1.3125rem;
-  color: #0d237d;
+  color: #fff;
 }
 
 footer {
-  background: #2e71dd;
+  background: #262228;
 }
 
 .container__footer_section {
-  border: 0.08rem solid #000;
+  border: 0.08rem solid #0375b4;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -333,7 +334,7 @@ footer {
 }
 
 .container__footer_section__div h3 {
-  color: #c72b1d;
+  color: #ffce00;
   font-size: 1.875rem;
   margin: 0.8125rem 0;
 }
@@ -343,7 +344,7 @@ footer {
 }
 
 .container__footer_section__div a {
-  color: #c72b1d;
+  color: #fff;
   position: relative;
   left: 16.875rem;
   width: fit-content;
@@ -354,13 +355,13 @@ footer {
 }
 
 .container__footer_section__div a:hover {
-  color: #f4f4f4;
+  color: #ffce00;
 }
 
 .footer__copy {
   width: fit-content;
-  background: #2e71dd;
-  color: #000;
+  background: #262228;
+  color: #0375b4;
   text-align: center;
   font-size: 1.0625rem;
   margin: auto;
