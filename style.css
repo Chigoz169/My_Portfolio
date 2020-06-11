@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
 /* Reset */
 * {
@@ -10,7 +10,7 @@
 /* Main */
 html,
 body {
-  font-family: 'Cabin' sans-serif;
+  font-family: "Cabin" sans-serif;
   background: #f4f4f4;
   line-height: 2rem;
 }
@@ -126,7 +126,7 @@ p {
 
 .container__div__profile--pro2 {
   padding: 3.5rem;
-} 
+}
 
 .container__div__profile--pro1 img {
   height: 25rem;
@@ -141,7 +141,7 @@ p {
   right: 0.3125rem;
 }
 
-.container__div__profile  p {
+.container__div__profile p {
   font-size: 2.1875rem;
   margin-bottom: 3.125rem;
 }
@@ -151,7 +151,7 @@ p {
   margin-bottom: 5rem;
 }
 
-.container__div__profile  h2 {
+.container__div__profile h2 {
   border: 0.25rem solid #eb3e2f;
   border-left: none;
   border-right: none;
@@ -178,7 +178,7 @@ p {
 
 .container__block__section p,
 .contact p {
-  padding: 1.25rem 1rem;  
+  padding: 1.25rem 1rem;
 }
 
 .container__block__flex {
@@ -217,7 +217,7 @@ p {
   border: 0.1875rem solid;
   color: #f4f4f4;
   width: fit-content;
-  background: #426DB8;
+  background: #426db8;
   margin-bottom: 0.625rem;
   margin-right: 0.3125rem;
   font-size: 1.25rem;
@@ -227,10 +227,10 @@ p {
   border-top-color: #33a951;
   border-left-color: #fab900;
   border-bottom-color: #eb3e2f;
-  border-right-color: #3f86f8;  
+  border-right-color: #3f86f8;
 }
 .container__block__flex__stack--link {
-  background: none
+  background: none;
 }
 
 .container__block__flex__stack a {
@@ -354,7 +354,7 @@ footer {
 }
 
 .container__footer_section__div a:hover {
-  color: #f4f4f4;
+  color: #fff;
 }
 
 .footer__copy {
