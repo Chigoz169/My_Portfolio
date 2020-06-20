@@ -1,0 +1,68 @@
+.contact {
+  & p {
+    background: $color-primary;
+    @extend %para-shared;
+  }
+
+  & form {
+    background: #0375b4;
+    width: 50%;
+    margin-top: 1.25rem;
+    padding: 1.25rem 1.875rem;
+
+    & label {
+      display: block;
+      color: $color-secondary;
+      font-size: 1.4rem;
+    }
+
+    & input {
+      display: block;
+      font-size: 1.25rem;
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 0.625rem;
+
+      &:last-child {
+        width: fit-content;
+        padding: 0.625rem 1.5rem;
+        border-radius: 0.5rem;
+        margin-top: 0.625rem;
+        background: $color-tertiary;
+        color: $color-white;
+        cursor: pointer;
+        border: 0.0625rem solid $color-secondary;
+        font-weight: 700;
+
+        &:hover {
+          background: $color-secondary;
+          font-size: 1.3125rem;
+          color: $color-dark;
+        }
+      }
+
+      &:hover {
+        @extend %effect;
+      }
+
+      &:focus {
+        @extend %effect;
+      }
+    }
+
+    & textarea {
+      font-size: 1.25rem;
+      width: 100%;
+      height: 9.375rem;
+      padding: 0.5rem;
+
+      &:hover {
+        @extend %effect;
+      }
+
+      &:focus {
+        @extend %effect;
+      }
+    }
+  }
+}

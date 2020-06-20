@@ -1,0 +1,15 @@
+.container {
+  margin: auto;
+  max-width: 93.75rem;
+  overflow: hidden;
+  padding: 0.1875rem 0.625rem;
+}
+
+.container__header {
+  color: $color-secondary;
+  padding: 0.625rem;
+  width: 96.7%;
+  background: $color-primary;
+  font-size: 2.1875rem;
+  margin: 1.9rem 0.625rem;
+}
