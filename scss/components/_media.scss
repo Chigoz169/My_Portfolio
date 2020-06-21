@@ -1,0 +1,243 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    line-height: 1.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    max-width: 48rem;
+    padding: 0.125rem 0.5rem;
+
+    &__header {
+      width: 100%;
+      font-size: 2rem;
+      margin: 1rem auto;
+    }
+
+    &__flex {
+      padding: 0.25rem;
+      display: block;
+    }
+  }
+
+  .header_flex {
+    width: 100%;
+
+    &__logo img {
+      margin-top: 0.4rem;
+    }
+
+    &__head {
+      font-size: 1.5rem;
+    }
+  }
+
+  .container__flex {
+    &__list {
+      display: block;
+      background: #0d237d;
+      align-items: start;
+      width: 100%;
+      padding-left: 0;
+
+      & li {
+        border: 0.07rem solid #000;
+        text-align: center;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+
+        & a {
+          display: inline-block;
+          border-radius: none;
+          border-right: none;
+          border-left: none;
+          padding: 0;
+          margin: 0;
+
+          &:hover {
+            background: #0d237d;
+            font-weight: 400;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom: none;
+          }
+
+          &:focus {
+            text-decoration: none;
+            color: none;
+          }
+        }
+      }
+    }
+  }
+
+  .container__div {
+    display: block;
+
+    &__profile--pro1 {
+      width: 35%;
+      margin: 0.325rem auto;
+      border-radius: 0;
+
+      & img {
+        height: 8rem;
+        border-radius: 50%;
+        padding: 0.25rem;
+        margin-top: 0.2rem;
+      }
+    }
+
+    &__profile--pro2 {
+      padding: 1.25rem 1.5rem;
+      width: 100%;
+      margin-top: 0.325rem;
+
+      & img {
+        display: none;
+      }
+    }
+
+    &__profile p {
+      font-size: 1.3rem;
+      margin-bottom: 2.5rem;
+
+      &:first-child {
+        font-size: 1.875rem;
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    &__profile h2 {
+      padding: 0.875rem 0.125rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+
+  .container__block {
+    display: block;
+
+    &__section {
+      width: 100%;
+
+      & p {
+        margin-top: -0.5rem;
+        padding: 1.25rem 1rem;
+      }
+    }
+
+    &__flex__stack {
+      width: 100%;
+      margin: 0.5rem 0;
+
+      & h3 {
+        font-size: 1.6rem;
+        margin: 0.625rem 0;
+      }
+
+      & ul {
+        left: 0;
+        justify-content: center;
+        padding: 0.2rem;
+        width: 100%;
+
+        & li {
+          border: 0.15rem solid;
+          margin-bottom: 0.4rem;
+          margin-right: 0.3rem;
+          font-size: 1.2rem;
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+          border-top-color: #33a951;
+          border-left-color: #fab900;
+          border-bottom-color: #eb3e2f;
+          border-right-color: #3f86f8;
+        }
+      }
+
+      & a {
+        font-size: 1.3rem;
+        border-radius: 0.4rem;
+        margin-top: -1.3rem;
+
+        &:hover {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .contact {
+    & p {
+      background: #0d237d;
+      margin-top: -0.5rem;
+      padding: 1.25rem 1rem;
+    }
+
+    & form {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 1rem;
+
+      & input {
+        font-size: 1.1rem;
+        padding: 0.1rem;
+        margin-bottom: 0.8rem;
+
+        &:last-child {
+          padding: 0.5rem;
+          border-radius: 0.3rem;
+
+          &:hover {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      & textarea {
+        font-size: 1.1rem;
+        padding: 0.1rem;
+      }
+    }
+  }
+
+  .container__footer_section {
+    border: 0.08rem solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    display: block;
+    justify-content: none;
+    padding-bottom: 10px;
+
+    &__div {
+      width: 100%;
+      padding: 0.625rem 0.625rem;
+
+      & h3 {
+        font-size: 1.4rem;
+      }
+
+      & a {
+        left: 0;
+        font-size: 1.2rem;
+        padding: 0.3rem;
+      }
+    }
+  }
+
+  .footer__copy {
+    font-size: 0.8rem;
+    margin-top: -0.8rem;
+  }
+}

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 @import "abstracts/variables";
 @import "abstracts/mixins";
+
 @import "base/base";
 @import "base/utilities";
 
@@ -14,3 +15,5 @@
 @import "pages/home";
 @import "pages/about";
 @import "pages/contact";
+
+@import "components/media";
